@@ -10,8 +10,9 @@ nav
     justify-content: space-around;
     align-items: center;
     min-width: 8vh;
+    width: 100%;
     font-family: 'Open Sans', sans-serif;
-    background-color: #999966;
+    background-color: #013654;
     height: 67px;
 }
 
@@ -20,6 +21,7 @@ nav
     color: rgb(239, 239, 239);
     letter-spacing: 2px;
     font-size: 20px;
+    font-weight: bold;
 }
 .nav-links
 {
@@ -38,6 +40,13 @@ nav
     letter-spacing: 2px;
     font-weight: bold;
     font-size: 14px;
+}
+.nav-links a:hover
+{
+    text-decoration: underline;
+    font-weight: bolder;
+    font-size: medium;
+    border-radius: 10px;
 }
 
 .burger
@@ -73,7 +82,7 @@ nav
         right: 0px;
         height: 92vh;
         top: 8vh;
-        background-color: #999966;
+        background-color: #013654;
         display: flex;
         flex-direction: column;
         align-items: center;
@@ -117,4 +126,13 @@ nav
 .toggle .line3
 {
     transform: rotate(45deg) translate(-5px,-5px);
+}
+
+.secImg
+{
+    width: 100%;
+    height: 100vh;
+    background:url('bg2.jpg');
+    background-size: cover;
+    background-position: center;
 }
