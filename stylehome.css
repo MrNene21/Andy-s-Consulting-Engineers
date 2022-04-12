@@ -3,7 +3,12 @@
     padding: 0px;
     box-sizing: border-box;
 }
-
+body 
+{
+    overflow-x: hidden;
+    height: auto;
+    min-height: 100vh;
+}
 nav
 {
     display: flex;
@@ -14,6 +19,8 @@ nav
     font-family: 'Open Sans', sans-serif;
     background-color: #013654;
     height: 67px;
+    position:fixed;
+    top: 0;
 }
 
 .logo
@@ -130,9 +137,28 @@ nav
 
 .secImg
 {
+    margin-top: 67px;
     width: 100%;
     height: 100vh;
     background:url('bg2.jpg');
     background-size: cover;
     background-position: center;
 }
+
+/* .heading
+{
+    box-sizing: border-box;
+    max-width: 100%;
+    font-family: 'Sora', sans-serif;
+    position: fixed;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    font-size: 35px;
+    text-align: center;
+    resize: none;
+} */
+
+
+    
+
