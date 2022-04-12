@@ -103,6 +103,11 @@ nav
     .burger{
         display: block;
     }
+    .secImg
+    {
+        background-size: cover;
+    }
+    
 }
 
 .nav-active
@@ -140,24 +145,26 @@ nav
     margin-top: 67px;
     width: 100%;
     height: 100vh;
-    background:url('bg2.jpg');
+    background:linear-gradient(rgba(0,0,0,0.6), rgba(0,0,0,0.3)), url(./bg2.jpg);
     background-size: cover;
     background-position: center;
 }
 
-/* .heading
+.heading
 {
+    color: #ffff;
     box-sizing: border-box;
     max-width: 100%;
+    width: 100%;
     font-family: 'Sora', sans-serif;
     position: fixed;
     top: 50%;
     left: 50%;
     transform: translate(-50%, -50%);
-    font-size: 35px;
+    font-size: 36px;
     text-align: center;
     resize: none;
-} */
+}
 
 
     
