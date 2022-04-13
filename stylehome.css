@@ -152,19 +152,85 @@ nav
 
 .heading
 {
-    color: #ffff;
-    box-sizing: border-box;
-    max-width: 100%;
-    width: 100%;
     font-family: 'Sora', sans-serif;
-    position: fixed;
-    top: 50%;
-    left: 50%;
-    transform: translate(-50%, -50%);
-    font-size: 36px;
+    padding-top: 35vh;
+    color: #ffff;
     text-align: center;
-    resize: none;
+    font-size: 36px;
+    max-width: 100%;
 }
+
+.aboutUsImg
+{
+    margin-top: 0px;
+    width: 100%;
+    height: 100vh;
+    background: rgb(0,24,36);
+    background: linear-gradient(90deg, rgba(0,24,36,1) 12%, rgba(75,175,196,1) 100%);
+}
+.heading2
+{
+    font-family: 'Sora', sans-serif;
+    padding-top: 40vh;
+    color: #ffff;
+    text-align: center;
+    font-size: 40px;
+    max-width: 100%;
+}
+.heading2 .who
+{
+    margin-top: 10px;
+    margin-bottom: 7px;
+}
+
+.contSec
+{
+    margin-top: 0px;
+    width: 100%;
+    height: 100vh;
+    background: rgb(138,163,176);
+    background: radial-gradient(circle, rgba(138,163,176,1) 40%, rgba(144,171,184,1) 54%, rgba(206,235,232,1) 100%);
+}
+.contSec .heading3
+{
+    font-family: 'Sora', sans-serif;
+    font-size: 36px;
+    max-width: 100%;
+    padding-top: 3vh;
+    text-align: center;
+    font-weight: bolder;
+    color: black;
+}
+.Container
+{
+    font-family: 'Sora', sans-serif;
+    background-color: rgb(255, 255, 255);
+    height: 400px;
+    width: 500px;
+    margin: 50px auto;
+    text-align: center;
+}
+.Container .phone
+{
+    padding-top: 35px;
+    
+}
+.Container .Email
+{
+    padding-top: 35px;
+    
+}
+.Container .address
+{
+    padding-top: 35px;
+    
+}
+.Container hr
+{
+    margin-top: 15px;
+    border: 0.5px solid black;
+}
+
 
 
     
