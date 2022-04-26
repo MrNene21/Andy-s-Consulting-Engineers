@@ -3,6 +3,10 @@
     padding: 0px;
     box-sizing: border-box;
 }
+html
+{
+    scroll-behavior: smooth;
+}
 body 
 {
     overflow-x: hidden;
@@ -206,27 +210,56 @@ nav
     margin: 50px auto;
     text-align: center;
 }
+.Container p
+{
+    margin-top: 1.5px;
+    letter-spacing: 1.5px;
+    font-size: 16px;
+}
 .Container .phone
 {
     padding-top: 35px;
+    letter-spacing: 1.5px;
     
 }
 .Container .Email
 {
     padding-top: 35px;
-    
+    letter-spacing: 1.5px;
 }
 .Container .address
 {
     padding-top: 35px;
-    
+    letter-spacing: 1.5px;    
 }
 .Container hr
 {
     margin-top: 15px;
     border: 0.5px solid black;
 }
-
+.words
+{
+    margin-top: 67px;
+    height: 100vh;
+    text-align: justify;
+    margin: 50px 100px 50px 100px;
+    font-family: 'Sora', sans-serif;
+}
+.Hd1
+{
+    font-weight: 600;
+    font-size: 30px;
+    word-spacing: 5px;
+    letter-spacing: 1.5px;
+}
+.words p
+{
+    letter-spacing: 1.5px;
+    word-spacing: 2px;
+    font-size: 20px;
+    padding-top: 40px;
+    padding-bottom: 50px;
+}
 
 
     
