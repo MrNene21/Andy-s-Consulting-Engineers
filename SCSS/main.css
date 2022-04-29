@@ -1,0 +1,34 @@
+* {
+  margin: 0;
+  padding: 0;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+  font-family: 'Sora', sans-serif;
+}
+
+.grid {
+  margin-top: 67px;
+  display: -ms-grid;
+  display: grid;
+  padding: 16px;
+  grid-gap: 16px;
+  /* Media Query for Mobile Devices */
+}
+
+.grid img {
+  display: block;
+  width: 100%;
+  height: 100%;
+}
+
+@media (max-width: 480px) {
+  .grid {
+    -ms-grid-columns: (1fr)[2];
+        grid-template-columns: repeat(2, 1fr);
+  }
+}
+
+.grid .col {
+  padding: 16px;
+}
+/*# sourceMappingURL=main.css.map */
