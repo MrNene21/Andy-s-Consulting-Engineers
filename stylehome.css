@@ -92,7 +92,7 @@ nav
     {
         position: absolute;
         right: 0px;
-        height: 60rem;
+        height: 60vh;
         top: 7.5vh;
         background-color: #013654;
         display: flex;
