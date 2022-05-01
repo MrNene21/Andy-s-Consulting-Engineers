@@ -6,6 +6,7 @@
 html
 {
     scroll-behavior: smooth;
+    font-size: 62.5%;
 }
 body 
 {
@@ -31,7 +32,7 @@ nav
 {
     color: rgb(239, 239, 239);
     letter-spacing: 2px;
-    font-size: 20px;
+    font-size: 2rem;
     font-weight: bold;
 }
 .nav-links
@@ -50,13 +51,13 @@ nav
     text-decoration: none;
     letter-spacing: 2px;
     font-weight: bold;
-    font-size: 14px;
+    font-size: 1.4rem;
 }
 .nav-links a:hover
 {
     text-decoration: underline;
     font-weight: bolder;
-    font-size: medium;
+    font-size: 1.6rem;
     border-radius: 10px;
 }
 
@@ -155,7 +156,7 @@ nav
     padding-top: 35vh;
     color: #ffff;
     text-align: center;
-    font-size: 36px;
+    font-size: 3.6rem;
     max-width: 100%;
 }
 
@@ -173,7 +174,7 @@ nav
     padding-top: 40vh;
     color: #ffff;
     text-align: center;
-    font-size: 40px;
+    font-size: 4rem;
     max-width: 100%;
 }
 .heading2 .who
@@ -193,7 +194,7 @@ nav
 .contSec .heading3
 {
     font-family: 'Sora', sans-serif;
-    font-size: 36px;
+    font-size: 3.6rem;
     max-width: 100%;
     padding-top: 7vh;
     text-align: center;
@@ -214,7 +215,7 @@ nav
 {
     margin-top: 1.5px;
     letter-spacing: 1.5px;
-    font-size: 16px;
+    font-size: 1.6rem;
 }
 .Container .phone
 {
@@ -249,7 +250,7 @@ nav
 {
     color:#013654;
     font-weight: 600;
-    font-size: 30px;
+    font-size: 3rem;
     word-spacing: 5px;
     letter-spacing: 1.5px;
 }
@@ -257,7 +258,7 @@ nav
 {
     letter-spacing: 1.5px;
     word-spacing: 2px;
-    font-size: 20px;
+    font-size: 2rem;
     padding-top: 40px;
     padding-bottom: 50px;
 }
