@@ -16,7 +16,6 @@ body
     padding: 0;
     margin: 0;
     overflow-x: hidden;
-    overflow-x: hidden;
     height: auto;
     min-height: 100vh;
 }
@@ -89,8 +88,8 @@ nav
     }
 }
 
-/* Media Query for Mobile Devices */
-@media (max-width: 480px)
+/* Media Query for Tablets and mobile - ONLY NAV BAR */
+@media (max-width: 47.9375em)
 {
     body{
         overflow-x: hidden;

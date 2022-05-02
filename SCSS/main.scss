@@ -4,25 +4,57 @@
     box-sizing: border-box;
     font-family: 'Sora', sans-serif;
 }
+html
+{
+    padding: 0;
+    margin: 0;
+    overflow-x: hidden;
+    scroll-behavior: smooth;
+    font-size: 62.5%;
+}
+body 
+{
+    padding: 0;
+    margin: 0;
+    overflow-x: hidden;
+    height: auto;
+    min-height: 100vh;
+}
 
+img{
+    display: block;
+    width:100%;
+    height: 100%;
+}
 .grid{
     margin-top: 67px;
     display: grid;
-    padding: 16px;
-    grid-gap: 16px;
-
-    img{
-        display: block;
-        width:100%;
-        height: 100%;
-    }
+    padding: 1.6rem;
+    grid-gap: 1.6rem;
 
     /* Media Query for Mobile Devices */
-    @media (max-width: 480px) {
+    @media (min-width: 360px) and (max-width: 480px) {
+        grid-template-columns: repeat(1, 1fr);
+    }
+     
+    /* Media Query for iPads, Tablets */
+    @media (min-width: 481px) and (max-width: 767px) {
         grid-template-columns: repeat(2, 1fr);
     }
-  
-    .col{
-      padding: 16px;
+
+    /* Media Query for Tablets Ipads portrait mode */
+    @media (min-width: 768px) and (max-width: 1024px) {
+        grid-template-columns: repeat(2, 1fr);
     }
+
+    /* Media Query for Laptops and Desktops */
+    @media (min-width: 1025px) and (max-width: 1280px) {
+        grid-template-columns: repeat(3, 1fr);
+    }
+
+    /* Media Query for Large screens */
+    @media (min-width: 1281px) {
+        grid-template-columns: repeat(2, 1fr);
+    }
+    
   }
