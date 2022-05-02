@@ -33,27 +33,27 @@ img{
     grid-gap: 1.6rem;
 
     /* Media Query for Mobile Devices */
-    @media (min-width: 360px) and (max-width: 480px) {
+    @media (min-width: 22.5em) and (max-width: 30em) {
         grid-template-columns: repeat(1, 1fr);
     }
      
     /* Media Query for iPads, Tablets */
-    @media (min-width: 481px) and (max-width: 767px) {
+    @media (min-width: 30.0625em) and (max-width: 47.9375em) {
         grid-template-columns: repeat(2, 1fr);
     }
 
     /* Media Query for Tablets Ipads portrait mode */
-    @media (min-width: 768px) and (max-width: 1024px) {
+    @media (min-width: 48em) and (max-width: 64em) {
         grid-template-columns: repeat(2, 1fr);
     }
 
-    /* Media Query for Laptops and Desktops */
-    @media (min-width: 1025px) and (max-width: 1280px) {
+    /* Media Query for small Laptops and Desktops */
+    @media (min-width: 64.0625em) and (max-width: 80em) {
         grid-template-columns: repeat(3, 1fr);
     }
 
     /* Media Query for Large screens */
-    @media (min-width: 1281px) {
+    @media (min-width: 80.0625em) {
         grid-template-columns: repeat(2, 1fr);
     }
     
