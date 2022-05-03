@@ -35,15 +35,24 @@ img {
   padding-top: 1.5rem;
 }
 
-hr {
+.underHeading {
+  background-color: #2180d4;
+  height: 0.32rem;
   margin-top: 1.5rem;
-  border: 0.05rem solid black;
   margin-left: 30%;
   margin-right: 30%;
 }
 
+hr {
+  background-color: #2180d4;
+  height: 0.32rem;
+  margin-top: 1.5rem;
+}
+
 .grid {
-  margin-top: 6.7rem;
+  margin-left: 5%;
+  margin-right: 5%;
+  margin-top: 2rem;
   display: -ms-grid;
   display: grid;
   padding: 1.6rem;
