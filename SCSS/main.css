@@ -28,12 +28,26 @@ img {
   height: 100%;
 }
 
+.headingServ {
+  margin-top: 6.7rem;
+  text-align: center;
+  font-size: 4.5rem;
+  padding-top: 1.5rem;
+}
+
+hr {
+  margin-top: 1.5rem;
+  border: 0.05rem solid black;
+  margin-left: 30%;
+  margin-right: 30%;
+}
+
 .grid {
-  margin-top: 67px;
+  margin-top: 6.7rem;
   display: -ms-grid;
   display: grid;
   padding: 1.6rem;
-  grid-gap: 1.6rem;
+  grid-gap: 8rem;
   /* Media Query for Mobile Devices */
   /* Media Query for iPads, Tablets */
   /* Media Query for Tablets Ipads portrait mode */
@@ -50,8 +64,8 @@ img {
 
 @media (min-width: 30.0625em) and (max-width: 47.9375em) {
   .grid {
-    -ms-grid-columns: (1fr)[2];
-        grid-template-columns: repeat(2, 1fr);
+    -ms-grid-columns: (1fr)[1];
+        grid-template-columns: repeat(1, 1fr);
   }
 }
 
@@ -64,8 +78,8 @@ img {
 
 @media (min-width: 64.0625em) and (max-width: 80em) {
   .grid {
-    -ms-grid-columns: (1fr)[3];
-        grid-template-columns: repeat(3, 1fr);
+    -ms-grid-columns: (1fr)[2];
+        grid-template-columns: repeat(2, 1fr);
   }
 }
 

@@ -26,11 +26,25 @@ img{
     width:100%;
     height: 100%;
 }
+.headingServ
+{
+    margin-top: 6.7rem;
+    text-align: center;
+    font-size: 4.5rem;
+    padding-top: 1.5rem;
+}
+hr
+{
+    margin-top: 1.5rem;
+    border: 0.05rem solid black;
+    margin-left: 30%;
+    margin-right: 30%;
+}
 .grid{
-    margin-top: 67px;
+    margin-top: 6.7rem;
     display: grid;
     padding: 1.6rem;
-    grid-gap: 1.6rem;
+    grid-gap: 8rem;
 
     /* Media Query for Mobile Devices */
     @media (min-width: 22.5em) and (max-width: 30em) {
@@ -39,7 +53,7 @@ img{
      
     /* Media Query for iPads, Tablets */
     @media (min-width: 30.0625em) and (max-width: 47.9375em) {
-        grid-template-columns: repeat(2, 1fr);
+        grid-template-columns: repeat(1, 1fr);
     }
 
     /* Media Query for Tablets Ipads portrait mode */
@@ -49,7 +63,7 @@ img{
 
     /* Media Query for small Laptops and Desktops */
     @media (min-width: 64.0625em) and (max-width: 80em) {
-        grid-template-columns: repeat(3, 1fr);
+        grid-template-columns: repeat(2, 1fr);
     }
 
     /* Media Query for Large screens */
