@@ -47,7 +47,8 @@ hr{
     margin-top: 1.5rem;
     
 }
-.grid{
+.grid
+{
     margin-left: 5%;
     margin-right: 5%;
     margin-top: 2rem;
@@ -59,26 +60,81 @@ hr{
     /* Media Query for Mobile Devices */
     @media (min-width: 22.5em) and (max-width: 30em) {
         grid-template-columns: repeat(1, 1fr);
+        .col
+        {
+            .details{
+                font-size: 1.3rem;
+                text-align: justify;
+            }
+            .Title{
+                font-size: 2.5rem;
+                color:#013654;
+            }
+        }
     }
      
     /* Media Query for iPads, Tablets */
     @media (min-width: 30.0625em) and (max-width: 47.9375em) {
         grid-template-columns: repeat(1, 1fr);
+        .col
+        {
+            .details{
+                font-size: 1.5rem;
+                text-align: justify;
+            }
+            .Title{
+                font-size: 2.7rem;
+                color:#013654;
+            }
+        }
     }
 
     /* Media Query for Tablets Ipads portrait mode */
     @media (min-width: 48em) and (max-width: 64em) {
         grid-template-columns: repeat(2, 1fr);
+        .col
+        {
+            .details{
+                font-size: 1.6rem;
+                text-align: justify;
+            }
+            .Title{
+                font-size: 2.8rem;
+                color:#013654;
+            }
+        }
     }
 
     /* Media Query for small Laptops and Desktops */
     @media (min-width: 64.0625em) and (max-width: 80em) {
         grid-template-columns: repeat(2, 1fr);
+        .col
+        {
+            .details{
+                font-size: 1.7rem;
+                text-align: justify;
+            }
+            .Title{
+                font-size: 2.9rem;
+                color:#013654;
+            }
+        }
     }
 
     /* Media Query for Large screens */
     @media (min-width: 80.0625em) {
         grid-template-columns: repeat(2, 1fr);
+        .col
+        {
+            .details{
+                font-size: 1.8rem;
+                text-align: justify;
+            }
+            .Title{
+                font-size: 3rem;
+                color:#013654;
+            }
+        }
     }
     
   }

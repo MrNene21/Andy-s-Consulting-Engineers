@@ -1,7 +1,0 @@
-/* Media Query for Mobile Devices */
-@media (min-width: 22.5em) and (max-width: 30em) {
-   .Title
-   {
-       font-size: x-small;
-   }
-}
