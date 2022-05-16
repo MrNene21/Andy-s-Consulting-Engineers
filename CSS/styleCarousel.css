@@ -1,6 +1,3 @@
-body{
-  height: 100vh;
-}
 /* Slideshow container */
 .carousel {
   margin-left: 17%;
@@ -11,6 +8,29 @@ body{
 .carousel-inner img {
   width: 100%;
   height: 100%;
+}
+
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: 'Sora', sans-serif;
+}
+html
+{
+  padding: 0;
+  margin: 0;
+  overflow-x: hidden;
+  scroll-behavior: smooth;
+  font-size: 62.5%;
+}
+body 
+{
+  padding: 0;
+  margin: 0;
+  overflow-x: hidden;
+  height: auto;
+  min-height: 100vh;
 }
 
 
