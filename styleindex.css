@@ -191,25 +191,6 @@ nav
     margin-bottom: 0.7rem;
 }
 
-.contSec
-{
-    margin-top: 0px;
-    width: 100%;
-    height: 92vh;
-    background: rgb(138,163,176);
-    background: radial-gradient(circle, rgba(138,163,176,1) 40%, rgba(144,171,184,1) 54%, rgba(206,235,232,1) 100%);
-}
-.contSec .heading3
-{
-    font-family: 'Sora', sans-serif;
-    font-size: 3.6rem;
-    max-width: 100%;
-    padding-top: 7vh;
-    text-align: center;
-    font-weight: bolder;
-    color: black;
-}
-
 .words
 {
     margin-top: 6.7rem;
@@ -235,7 +216,7 @@ nav
     padding-bottom: 5rem;
 }
 
-.Container
+.contact-container
 {
     position: static;
     font-family: 'Sora', sans-serif;
@@ -245,26 +226,54 @@ nav
     margin: 5rem auto;
     text-align: center;
 }
-.Container p
+.contact-container p
 {
     margin-top: 0.15rem;
     letter-spacing: 0.15rem;
     font-size: 1.6rem;
 }
-.Container .containerHeading
+.contact-container .containerHeading
 {
     padding-top: 3.5rem;
     letter-spacing: 0.15rem;
     
 }
 
-.Container hr
+.contact-container hr
 {
     margin-top: 1.5rem;
     border: 0.05rem solid black;
 }
 
+.contSec
+{
+    margin-top: 0px;
+    width: 100%;
+    height: 100vh;
+    background: rgb(138,163,176);
+    background: radial-gradient(circle, rgba(138,163,176,1) 40%, rgba(144,171,184,1) 54%, rgba(206,235,232,1) 100%);
+}
+.contSec .heading3
+{
+    font-family: 'Sora', sans-serif;
+    font-size: 3.6rem;
+    max-width: 100%;
+    padding-top: 7vh;
+    text-align: center;
+    font-weight: bolder;
+    color: black;
+}
+.Map
+{
+    width: 100%;
+}
 
+.map-wrapper
+{
+    margin-top: 8rem;
+    margin-left: 10%;
+    margin-right: 10%;
+}
 
     
 
