@@ -42,6 +42,30 @@ nav
     font-size: 2rem;
     font-weight: bold;
 }
+a:link {
+     text-decoration: none;
+     color: rgb(239, 239, 239); 
+    }
+
+
+a:visited {
+     text-decoration: none; 
+     color: rgb(239, 239, 239);
+    }
+
+
+a:hover {
+     text-decoration: underline;
+     color: rgb(239, 239, 239);
+     font-size: 2.1rem; 
+    }
+
+
+a:active {
+     text-decoration: none;
+     color: rgb(239, 239, 239); 
+    }
+
 .nav-links
 {
     display: flex;
@@ -218,33 +242,34 @@ nav
 
 .contact-container
 {
+    align-items: center;
     position: static;
-    font-family: 'Sora', sans-serif;
-    background-color: rgb(255, 255, 255);
-    height: 40rem;
-    width: 50rem;
+    background-color: rgb(239, 236, 236);
     margin: 5rem auto;
     text-align: center;
+    font-family: 'Ubuntu', sans-serif;
+    width: 45%;
+}
+
+.contSec .icon
+{
+    justify-content: center;
+    padding-top: 4rem;
+    font-size: 3rem;
+    color: rgb(128, 0, 94);
+}
+.contact-container .containerHeading
+{
+    letter-spacing: 0.15rem;
+    font-size: 2.1rem;
 }
 .contact-container p
 {
     margin-top: 0.15rem;
     letter-spacing: 0.15rem;
-    font-size: 1.6rem;
+    font-size: 1.8rem;
+    padding-bottom: 0.5rem;
 }
-.contact-container .containerHeading
-{
-    padding-top: 3.5rem;
-    letter-spacing: 0.15rem;
-    
-}
-
-.contact-container hr
-{
-    margin-top: 1.5rem;
-    border: 0.05rem solid black;
-}
-
 .contSec
 {
     margin-top: 0px;
@@ -256,9 +281,9 @@ nav
 .contSec .heading3
 {
     font-family: 'Sora', sans-serif;
-    font-size: 3.6rem;
+    font-size: 3.8rem;
     max-width: 100%;
-    padding-top: 7vh;
+    padding-top: 12vh;
     text-align: center;
     font-weight: bolder;
     color: black;
@@ -274,6 +299,7 @@ nav
     margin-left: 10%;
     margin-right: 10%;
 }
+
 
     
 
