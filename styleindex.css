@@ -209,43 +209,7 @@ nav
     font-weight: bolder;
     color: black;
 }
-.Container
-{
-    position: static;
-    font-family: 'Sora', sans-serif;
-    background-color: rgb(255, 255, 255);
-    height: 40rem;
-    width: 50rem;
-    margin: 5rem auto;
-    text-align: center;
-}
-.Container p
-{
-    margin-top: 0.15rem;
-    letter-spacing: 0.15rem;
-    font-size: 1.6rem;
-}
-.Container .phone
-{
-    padding-top: 3.5rem;
-    letter-spacing: 0.15rem;
-    
-}
-.Container .Email
-{
-    padding-top: 3.5rem;
-    letter-spacing: 0.15rem;
-}
-.Container .address
-{
-    padding-top: 3.5rem;
-    letter-spacing: 0.15rem;    
-}
-.Container hr
-{
-    margin-top: 1.5rem;
-    border: 0.05rem solid black;
-}
+
 .words
 {
     margin-top: 6.7rem;
@@ -270,6 +234,36 @@ nav
     padding-top: 4rem;
     padding-bottom: 5rem;
 }
+
+.Container
+{
+    position: static;
+    font-family: 'Sora', sans-serif;
+    background-color: rgb(255, 255, 255);
+    height: 40rem;
+    width: 50rem;
+    margin: 5rem auto;
+    text-align: center;
+}
+.Container p
+{
+    margin-top: 0.15rem;
+    letter-spacing: 0.15rem;
+    font-size: 1.6rem;
+}
+.Container .containerHeading
+{
+    padding-top: 3.5rem;
+    letter-spacing: 0.15rem;
+    
+}
+
+.Container hr
+{
+    margin-top: 1.5rem;
+    border: 0.05rem solid black;
+}
+
 
 
     
