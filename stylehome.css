@@ -32,6 +32,7 @@ nav
     height: 6.7rem;
     position:fixed;
     top: 0;
+    z-index: 1000;
 }
 
 .logo
