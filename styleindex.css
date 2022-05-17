@@ -293,7 +293,7 @@ a:active {
     font-family: 'Sora', sans-serif;
     font-size: 3.6rem;
     max-width: 100%;
-    padding-top: 12vh;
+    padding-top: 7vh;
     text-align: center;
     font-weight: bolder;
     color: black;
@@ -306,7 +306,7 @@ a:active {
 .map-wrapper
 {
     height: 92vh;
-    margin-top: 8rem;
+    margin-top: 4rem;
     margin-left: 10%;
     margin-right: 10%;
 }

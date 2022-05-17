@@ -9,25 +9,21 @@
     margin: 24px 0 48px;
     font: 20px / 28px 'Sora', sans-serif;
   }
-  
-  .notification {
-    position: fixed;
-    left: 0;
-    right: 0;
-    bottom: 0;
-    padding: 5px 15px;
+  html
+{
+    padding: 0;
     margin: 0;
-    text-align: center;
-    z-index: 1;
-    background: var(--yellow);
-  }
-  
-  @media (max-width: 700px) {
-    .notification {
-      display: none;
+    overflow-x: hidden;
+    scroll-behavior: smooth;
+    font-size: 62.5%;
+}
+  .text-center{
+    margin-top: 10rem;
+    font-size: 3.6rem;
+    padding-bottom: 1.7%;
+    font-weight: bolder;
+    color: black;
     }
-  }
-  
   
   /* IMAGE GRID STYLES
   –––––––––––––––––––––––––––––––––––––––––––––––––– */
@@ -94,22 +90,4 @@
   .lightbox-modal .carousel-control-next {
     right: 10px;
   }
-  
-  
-  /* FOOTER STYLES
-  –––––––––––––––––––––––––––––––––––––––––––––––––– */
-  .page-footer {
-    position: fixed;
-    right: 0;
-    bottom: 60px;
-    display: flex;
-    align-items: center;
-    font-size: 1rem;
-    padding: 5px;
-    background: rgba(255, 255, 255, 0.65);
-  }
-  
-  .page-footer a {
-    display: flex;
-    margin-left: 9px;
-  }
+
