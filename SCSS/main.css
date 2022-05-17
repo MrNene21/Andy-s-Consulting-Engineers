@@ -31,8 +31,10 @@ img {
 .headingServ {
   margin-top: 6.7rem;
   text-align: center;
-  font-size: 4.5rem;
-  padding-top: 1.5rem;
+  font-size: 3.6rem;
+  margin-top: 10rem;
+  font-weight: bolder;
+  max-width: 100%;
 }
 
 .underHeading {
@@ -134,8 +136,10 @@ hr {
     text-align: justify;
   }
   .grid .col .Title {
-    font-size: 3rem;
+    font-size: 2.6rem;
     color: #013654;
+    letter-spacing: 0.15rem;
+    word-spacing: 0.2rem;
   }
 }
 /*# sourceMappingURL=main.css.map */
