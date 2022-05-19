@@ -17,13 +17,6 @@
     scroll-behavior: smooth;
     font-size: 62.5%;
 }
-  .text-center{
-    margin-top: 10rem;
-    font-size: 3.6rem;
-    padding-bottom: 1.7%;
-    font-weight: bolder;
-    color: black;
-    }
   
   /* IMAGE GRID STYLES
   –––––––––––––––––––––––––––––––––––––––––––––––––– */
@@ -90,4 +83,46 @@
   .lightbox-modal .carousel-control-next {
     right: 10px;
   }
+
+  .text-center{
+    margin-top: 10rem;
+    padding-bottom: 1.7%;
+    font-weight: bolder;
+    color: black;
+    }
+    /* Media Query for Mobile Devices */
+  @media (min-width: 22.5em) and (max-width: 30em) {
+    .text-center{
+      font-size: 3.2rem;
+    }
+}
+ 
+/* Media Query for iPads, Tablets */
+@media (min-width: 30.0625em) and (max-width: 47.9375em) {
+  .text-center{
+    font-size: 3.3rem;
+  }
+}
+
+/* Media Query for Tablets Ipads portrait mode */
+@media (min-width: 48em) and (max-width: 64em) {
+  .text-center{
+    font-size: 3.4rem;
+  }
+}
+
+/* Media Query for small Laptops and Desktops */
+@media (min-width: 64.0625em) and (max-width: 80em) {
+  .text-center{
+    font-size: 3.5rem;
+  }
+}
+
+/* Media Query for Large screens */
+@media (min-width: 80.0625em) {
+  .text-center{
+    font-size: 3.6rem;
+  }
+}
+
 

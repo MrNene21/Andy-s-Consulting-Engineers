@@ -1,0 +1,151 @@
+/* Media Query for Mobile Devices */
+@media (min-width: 22.5em) and (max-width: 30em) {
+    .heading
+    {
+        font-size: 3.2rem;
+    }
+    .heading2
+    {
+        font-size: 3.2rem;
+    }
+    .words
+    {
+        margin-top: 6.3rem;
+        min-height: 56rem;
+        margin: 1rem 6em 1rem 6rem;
+    }
+    .words p
+    {
+        font-size: 1.8rem;
+        padding-top: 0.9rem;
+        padding-bottom: 1rem;
+    }
+    .Hd1
+    {
+        font-size: 2.6rem;
+        word-spacing: 0.1rem;
+    }
+}
+ 
+/* Media Query for iPads, Tablets */
+@media (min-width: 30.0625em) and (max-width: 47.9375em) {
+    .heading
+    {
+        font-size: 3.3rem;
+    }
+    .heading2
+    {
+        font-size: 3.3rem;
+    }
+    .words
+    {
+        margin-top: 6.4rem;
+        min-height: 57rem;
+        margin: 2rem 7rem 2rem 7rem;
+    }
+    .words p
+    {
+        font-size: 1.8rem;
+        padding-top: 1rem;
+        padding-bottom: 2rem;
+    }
+    .Hd1
+    {
+        font-size: 2.7rem;
+        word-spacing: 0.2rem;
+    }
+}
+
+/* Media Query for Tablets Ipads portrait mode */
+@media (min-width: 48em) and (max-width: 64em) {
+    .heading
+    {
+        font-size: 3.4rem;
+    }
+    .heading2
+    {
+        font-size: 3.4rem;
+    }
+    .words
+    {
+        margin-top: 6.5rem;
+        min-height: 58rem;
+        margin: 3rem 8rem 3rem 8rem;
+    }
+    .words p
+    {
+        font-size: 1.8rem;
+        padding-top: 2rem;
+        padding-bottom: 3rem;
+    }
+    .Hd1
+    {
+        font-size: 2.8rem;
+        word-spacing: 0.3rem;
+        letter-spacing: 0.13rem;
+    }
+}
+
+/* Media Query for small Laptops and Desktops */
+@media (min-width: 64.0625em) and (max-width: 80em) {
+    .heading
+    {
+        font-size: 3.5rem;
+    }
+    .heading2
+    {
+        font-size: 3.5rem;
+    }
+    .words
+    {
+        margin-top: 6.6rem;
+        min-height: 59rem;
+        margin: 4rem 9rem 4rem 9rem;
+    }
+    .words p
+    {
+        word-spacing: 0.1rem;
+        font-size: 1.8rem;
+        padding-top: 3rem;
+        padding-bottom: 4rem;
+    }
+    .Hd1
+    {
+        font-size: 2.9rem;
+        word-spacing: 0.4rem;
+        letter-spacing: 0.14rem;
+    }
+}
+
+/* Media Query for Large screens */
+@media (min-width: 80.0625em) {
+    .heading
+    {
+        font-size: 3.6rem;
+    }
+    .heading2
+    {
+        font-size: 3.6rem;
+    }
+    .words
+    {
+        margin-top: 6.7rem;
+        min-height: 60rem;
+        margin: 5rem 10rem 5rem 10rem;
+    }
+    .words p
+    {
+        letter-spacing: 0.15rem;
+        word-spacing: 0.2rem;
+        font-size: 1.8rem;
+        padding-top: 4rem;
+        padding-bottom: 5rem;
+    }
+    .Hd1
+    {
+        font-size: 3.0rem;
+        word-spacing: 0.5rem;
+        letter-spacing: 0.15rem;
+    }
+ 
+}

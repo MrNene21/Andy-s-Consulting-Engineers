@@ -188,7 +188,6 @@ a:active {
     padding-top: 35vh;
     color: #ffff;
     text-align: center;
-    font-size: 3.6rem;
     max-width: 100%;
 }
 
@@ -206,7 +205,6 @@ a:active {
     padding-top: 40vh;
     color: #ffff;
     text-align: center;
-    font-size: 3.6rem;
     max-width: 100%;
 }
 .heading2 .who
@@ -217,27 +215,13 @@ a:active {
 
 .words
 {
-    margin-top: 6.7rem;
-    min-height: 60rem;
     text-align: justify;
-    margin: 5rem 10rem 5rem 10rem;
     font-family: 'Sora', sans-serif;
 }
 .Hd1
 {
     color:#013654;
     font-weight: 600;
-    font-size: 3rem;
-    word-spacing: 0.5rem;
-    letter-spacing: 0.15rem;
-}
-.words p
-{
-    letter-spacing: 0.15rem;
-    word-spacing: 0.2rem;
-    font-size: 1.8rem;
-    padding-top: 4rem;
-    padding-bottom: 5rem;
 }
 
 .contact-container
