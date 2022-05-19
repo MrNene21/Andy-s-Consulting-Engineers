@@ -1,5 +1,10 @@
 /* Media Query for Mobile Devices */
 @media (min-width: 22.5em) and (max-width: 30em) {
+    .logo
+    {
+        letter-spacing: 0.07rem;
+        font-size: 1.6rem;
+    }
     .heading
     {
         font-size: 3.2rem;
@@ -25,10 +30,24 @@
         font-size: 2.6rem;
         word-spacing: 0.1rem;
     }
+    .contact-container
+    {
+        margin: 5rem auto;
+        width: 85%;
+    }
+    .contSec .icon{
+        padding-top: 3.6rem;
+        font-size: 2.6rem;
+    }
 }
  
 /* Media Query for iPads, Tablets */
 @media (min-width: 30.0625em) and (max-width: 47.9375em) {
+    .logo
+    {
+        letter-spacing: 0.08rem;
+        font-size: 1.7rem;
+    }
     .heading
     {
         font-size: 3.3rem;
@@ -41,7 +60,7 @@
     {
         margin-top: 6.4rem;
         min-height: 57rem;
-        margin: 2rem 7rem 2rem 7rem;
+        margin: 5rem 6rem 6rem 7rem;
     }
     .words p
     {
@@ -54,10 +73,24 @@
         font-size: 2.7rem;
         word-spacing: 0.2rem;
     }
+    .contact-container
+    {
+        margin: 5rem auto;
+        width: 75%;
+    }
+    .contSec .icon{
+        padding-top: 3.7rem;
+        font-size: 2.7rem;
+    }
 }
 
 /* Media Query for Tablets Ipads portrait mode */
 @media (min-width: 48em) and (max-width: 64em) {
+    .logo
+    {
+        letter-spacing: 0.09rem;
+        font-size: 1.8rem;
+    }
     .heading
     {
         font-size: 3.4rem;
@@ -70,7 +103,7 @@
     {
         margin-top: 6.5rem;
         min-height: 58rem;
-        margin: 3rem 8rem 3rem 8rem;
+        margin: 5rem 8rem 5rem 8rem;
     }
     .words p
     {
@@ -84,10 +117,24 @@
         word-spacing: 0.3rem;
         letter-spacing: 0.13rem;
     }
+    .contact-container
+    {
+        margin: 5rem auto;
+        width: 65%;
+    }
+    .contSec .icon{
+        padding-top: 3.8rem;
+        font-size: 2.8rem;
+    }
 }
 
 /* Media Query for small Laptops and Desktops */
 @media (min-width: 64.0625em) and (max-width: 80em) {
+    .logo
+    {
+        letter-spacing: 0.1rem;
+        font-size: 1.9rem;
+    }
     .heading
     {
         font-size: 3.5rem;
@@ -115,10 +162,24 @@
         word-spacing: 0.4rem;
         letter-spacing: 0.14rem;
     }
+    .contact-container
+    {
+        margin: 5rem auto;
+        width: 55%;
+    }
+    .contSec .icon{
+        padding-top: 3.9rem;
+        font-size: 2.9rem;
+    }
 }
 
 /* Media Query for Large screens */
 @media (min-width: 80.0625em) {
+    .logo
+    {
+        letter-spacing: 0.2rem;
+        font-size: 2.0rem;
+    }
     .heading
     {
         font-size: 3.6rem;
@@ -146,6 +207,15 @@
         font-size: 3.0rem;
         word-spacing: 0.5rem;
         letter-spacing: 0.15rem;
+    }
+    .contact-container
+    {
+        margin: 5rem auto;
+        width: 45%;
+    }
+    .contSec .icon{
+        padding-top: 4rem;
+        font-size: 3rem;
     }
  
 }
