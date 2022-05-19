@@ -259,9 +259,7 @@ a:active {
 .contSec .heading3
 {
     font-family: 'Sora', sans-serif;
-    font-size: 3.6rem;
     max-width: 100%;
-    padding-top: 12vh;
     text-align: center;
     font-weight: bolder;
     color: black;
@@ -269,9 +267,7 @@ a:active {
 .mapHeading
 {
     font-family: 'Sora', sans-serif;
-    font-size: 3.6rem;
     max-width: 100%;
-    padding-top: 7vh;
     text-align: center;
     font-weight: bolder;
     color: black;

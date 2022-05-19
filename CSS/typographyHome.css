@@ -39,6 +39,17 @@
         padding-top: 3.6rem;
         font-size: 2.6rem;
     }
+    .contSec .heading3
+    {
+        font-size: 3.2rem;
+        padding-top: 8vh;
+    }
+    .mapHeading
+    {
+        font-size: 3.2rem;
+        padding-top: 3vh;
+    }
+ 
 }
  
 /* Media Query for iPads, Tablets */
@@ -82,6 +93,17 @@
         padding-top: 3.7rem;
         font-size: 2.7rem;
     }
+    .contSec .heading3
+    {
+        font-size: 3.3rem;
+        padding-top: 9vh;
+    }
+    .mapHeading
+    {
+        font-size: 3.3rem;
+        padding-top: 4vh;
+    }
+ 
 }
 
 /* Media Query for Tablets Ipads portrait mode */
@@ -126,6 +148,17 @@
         padding-top: 3.8rem;
         font-size: 2.8rem;
     }
+    .contSec .heading3
+    {
+        font-size: 3.4rem;
+        padding-top: 10vh;
+    }
+    .mapHeading
+    {
+        font-size: 3.4rem;
+        padding-top: 5vh;
+    }
+ 
 }
 
 /* Media Query for small Laptops and Desktops */
@@ -171,6 +204,17 @@
         padding-top: 3.9rem;
         font-size: 2.9rem;
     }
+    .contSec .heading3
+    {
+        font-size: 3.5rem;
+        padding-top: 11vh;
+    }
+    .mapHeading
+    {
+        font-size: 3.5rem;
+        padding-top: 6vh;
+    }
+ 
 }
 
 /* Media Query for Large screens */
@@ -216,6 +260,17 @@
     .contSec .icon{
         padding-top: 4rem;
         font-size: 3rem;
+    }
+    .contSec .heading3
+    {
+        font-size: 3.6rem;
+        padding-top: 12vh;
+    }
+    .mapHeading
+    {
+        font-size: 3.6rem;
+        padding-top: 7vh;
+
     }
  
 }
