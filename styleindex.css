@@ -282,6 +282,11 @@ a:active {
     margin-left: 10%;
     margin-right: 10%;
 }
+.footer
+{
+    background-color: red;
+    width: 100%;
+}
 
 
     

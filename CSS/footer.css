@@ -1,0 +1,102 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap');
+html
+{
+    padding: 0;
+    margin: 0;
+    overflow-x: hidden;
+    scroll-behavior: smooth;
+    font-size: 62.5%;
+}
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+    font-family: 'Sora', sans-serif;
+}
+body 
+{
+    padding: 0;
+    margin: 0;
+    overflow-x: hidden;
+    height: auto;
+    min-height: 100vh;
+}
+.container{
+	max-width: 100%;
+	margin:auto;
+}
+.row{
+	display: flex;
+	flex-wrap: wrap;
+}
+ul{
+	list-style: none;
+}
+.footer{
+	background-color: #1d2028;
+    padding: 2rem 0;
+}
+.footer-col{
+   width: 50%;
+   padding: 0 9rem;
+}
+.footer-col img{
+	height: 17rem;
+	width: 23rem;
+}
+.footer-col h4{
+	font-size: 18px;
+	color: #ffffff;
+	text-transform: capitalize;
+	margin-bottom: 3.7rem;
+	font-weight: 500;
+	position: relative;
+}
+.footer-col h4::before{
+	content: '';
+	position: absolute;
+	left:0;
+	bottom: -10px;
+	background-color: #e91e63;
+	height: 2px;
+	box-sizing: border-box;
+	width: 50px;
+}
+.footer-col ul li:not(:last-child){
+	margin-bottom: 10px;
+}
+
+.footer-col ul li a:hover{
+	color: #ffffff;
+	padding-left: 8px;
+}
+.footer-col .social-links a{
+	display: inline-block;
+	height: 4rem;
+	width: 4rem;
+	background-color: rgba(255,255,255,0.2);
+	margin:0 1rem 1rem 0;
+	text-align: center;
+	line-height: 40px;
+    font-size: 2rem;
+	border-radius: 50%;
+	color: #ffffff;
+	transition: all 0.5s ease;
+}
+.footer-col .social-links a:hover{
+	color: #24262b;
+	background-color: #ffffff;
+}
+.container .copyrightText{
+	align-items: center;
+	text-align: center;
+	margin-top: 67px;
+    color: white;
+    font-size: 2.0rem;
+}
+
+
+
+
+
+
