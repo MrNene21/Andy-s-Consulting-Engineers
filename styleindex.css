@@ -263,6 +263,11 @@ a:active {
     font-weight: bolder;
     color: black;
 }
+.mapPage{
+    margin-top: 0px;
+    width: 100%;
+    height: 90vh;
+}
 .mapHeading
 {
     font-family: 'Sora', sans-serif;
