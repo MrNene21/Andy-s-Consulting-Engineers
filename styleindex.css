@@ -251,7 +251,7 @@ a:active {
 {
     margin-top: 0px;
     width: 100%;
-    height: 110vh;
+    height: 80rem;
     background: rgb(138,163,176);
     background: radial-gradient(circle, rgba(138,163,176,1) 40%, rgba(144,171,184,1) 54%, rgba(206,235,232,1) 100%);
 }
@@ -287,11 +287,7 @@ a:active {
     margin-left: 10%;
     margin-right: 10%;
 }
-.footer
-{
-    background-color: red;
-    width: 100%;
-}
+
 
 
     
