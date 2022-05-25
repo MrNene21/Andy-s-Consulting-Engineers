@@ -209,7 +209,11 @@ a:active {
     margin-top: 1rem;
     margin-bottom: 0.7rem;
 }
-
+.words p
+{
+    padding-top: 4rem;
+    padding-bottom: 6.7rem;
+}
 .words
 {
     text-align: justify;
