@@ -103,16 +103,8 @@ a:active {
     transition: all 0.3s ease;
 }
 
-@media (max-width:1024px)
-{
-    .nav-links
-    {
-        width: 40%;
-    }
-}
-
 /* Media Query for Tablets and mobile - ONLY NAV BAR */
-@media (max-width: 47.9375em)
+@media (max-width: 64em)
 {
     body{
         overflow-x: hidden;

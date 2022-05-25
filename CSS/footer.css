@@ -110,6 +110,18 @@ ul{
 	
 }
 
+/* Media Query for iPads, Tablets */
+@media (min-width: 30.0625em) and (max-width: 47.9375em) {
+	.footer-col{
+		width: 50%;
+		padding: 0 4rem;
+	}
+	.footer-col img{
+		height: 10rem;
+		width: 18rem;
+	}
+  }
+
 
 
 
