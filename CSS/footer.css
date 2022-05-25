@@ -33,7 +33,7 @@ ul{
 	list-style: none;
 }
 .footer{
-	background-color: #1d2028;
+	background-color: #013654;
     padding: 2rem 0;
 }
 .footer-col{
@@ -101,7 +101,7 @@ ul{
 @media (min-width: 22.5em) and (max-width: 30em) {
 	.footer-col{
 		width: 50%;
-		padding: 0 0.8rem;
+		padding: 0 4rem;
 	}
 	.footer-col img{
 		height: 10rem;
